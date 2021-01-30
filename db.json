@@ -4,11 +4,11 @@
   },
   "rules": [
     { "ruleset": "Youtube-to-Invidious", "value": [
-      { src: "^https://www.youtube.com/channel/(.*)$", dst: "https://invidious.tube/channel/$1" },
-       { src: "^https://www.youtube.com/watch?v=(.*)&list=(.*)$", dst: "https://invidious.tube/watch?v=$1&list=$2" },
-       { src: "^https://www.youtube.com/results?search_query=(.*)$", dst: "https://invidious.tube/results?search_query=$1" },
-       { src: "^https://www.youtube.com/watch?v=(.*)$", dst: "https://invidious.tube/watch?v=$1" },
-       { src: "https://www.youtube.com/$", dst: "https://invidious.tube/feed/trending" }
+      { "src": "^https://www.youtube.com/channel/(.*)$", "dst": "https://invidious.tube/channel/$1" },
+       { "src": "^https://www.youtube.com/watch?v=(.*)&list=(.*)$", "dst": "https://invidious.tube/watch?v=$1&list=$2" },
+       { "src": "^https://www.youtube.com/results?search_query=(.*)$", "dst": "https://invidious.tube/results?search_query=$1" },
+       { "src": "^https://www.youtube.com/watch?v=(.*)$", "dst": "https://invidious.tube/watch?v=$1" },
+       { "src": "https://www.youtube.com/$", "dst": "https://invidious.tube/feed/trending" }
     ] }
   ],
 }
