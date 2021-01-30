@@ -1,15 +1,3 @@
 {
-	"version": "2",
-	"rules": {
-		"rulesetOne": {
-			"^https://www.youtube.com/channel/(.*)$": "https://invidious.tube/channel/$1",
-			"^https://www.youtube.com/watch?v=(.*)&list=(.*)$": "https://invidious.tube/watch?v=$1&list=$2",
-			"^https://www.youtube.com/results?search_query=(.*)$": "https://invidious.tube/results?search_query=$1",
-			"^https://www.youtube.com/watch?v=(.*)$": "https://invidious.tube/watch?v=$1",
-			"https://www.youtube.com/$": "https://invidious.tube/feed/trending"
-		},
-		"rulesetTwo": {
-			"https://www.smh.com.au/": "https://www.betootaadvocate.com.au/"
-		}
-	}
+	"version": "2"	
 }
