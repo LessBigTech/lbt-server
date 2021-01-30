@@ -20,7 +20,8 @@
        { "src": "^https://teddit.net/(.*)/search?q=$", "dst": "https://teddit.net/$1/search?q=$2" },
        { "src": "^https://teddit.net/search?q=(.*)$", "dst": "https://teddit.net/search?q=$1" },
        { "src": "^https://www.reddit.com/r/(.*)/(.*)$", "dst": "https://teddit.net/r/$1/$2" },
-       { "src": "^https://www.reddit.com/r/(.*)$", "dst": "https://teddit.net/r/$1" },
+       { "src": "^https://www.reddit.com/r/(.*)$", "dst": "https://teddit.net/r/$1" },      
+       { "src": "https://www.reddit.com/(.*)$", "dst": "https://teddit.net/$1" },
        { "src": "https://www.reddit.com/$", "dst": "https://teddit.net" }
     ] }
   ]
