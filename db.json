@@ -1,6 +1,6 @@
 {
   "version": {
-    "number": "2"
+    "number": "3"
   },
   "rules": [
        { "ruleset": "Youtube-to-Invidious", "value": [      
@@ -24,7 +24,8 @@
        { "src": "https://www.reddit.com/(.*)$", "dst": "https://teddit.net/$1" },
        { "src": "https://www.reddit.com/$", "dst": "https://teddit.net" }
     ] },
-    { "ruleset": "Google-to-DuckDuckGo", "value": [             
+    { "ruleset": "Google-to-DuckDuckGo", "value": [         
+       { "src": "https://www.google.com/search?q=(.*)$", "dst": "https://duckduckgo.com/?q=$1" }
        { "src": "https://www.google.com/$", "dst": "https://duckduckgo.com/" }
        { "src": "https://www.google.com.(.*)/$", "dst": "https://duckduckgo.com/" }
     ] }
