@@ -3,12 +3,21 @@
     "number": "2"
   },
   "rules": [
-    { "ruleset": "Youtube-to-Invidious", "value": [
-      { "src": "^https://www.youtube.com/channel/(.*)$", "dst": "https://invidious.tube/channel/$1" },
+       { "ruleset": "Youtube-to-Invidious", "value": [      
+       { "src": "^https://www.youtube.com/user/(.*)/(.*)$", "dst": "https://invidious.tube/channel/$1/$2" },
+       { "src": "^https://www.youtube.com/user/(.*)$", "dst": "https://invidious.tube/channel/$1" },
+       { "src": "^https://www.youtube.com/c/(.*)/(.*)$", "dst": "https://invidious.tube/channel/$1/$2" },
+       { "src": "^https://www.youtube.com/c/(.*)$", "dst": "https://invidious.tube/channel/$1" },
+       { "src": "https://www.youtube.com/feed/trending", "dst": "https://invidious.tube/feed/trending" },
+       { "src": "https://www.youtube.com/watch?v=(.*)$", "dst": "https://invidious.tube/watch\\?v=$1" },
+       { "src": "^https://www.youtube.com/channel/(.*)$", "dst": "https://invidious.tube/channel/$1" },
        { "src": "^https://www.youtube.com/watch\\?v=(.*)&list=(.*)$", "dst": "https://invidious.tube/watch\\?v=$1&list=$2" },
        { "src": "^https://www.youtube.com/results\\?search_query=(.*)$", "dst": "https://invidious.tube/results\\?search_query=$1" },
        { "src": "^https://www.youtube.com/watch\\?v=(.*)$", "dst": "https://invidious.tube/watch\\?v=$1" },
        { "src": "https://www.youtube.com/$", "dst": "https://invidious.tube/feed/trending" }
+    ] },
+    { "ruleset": "Reddit-to-Teddit", "value": [      
+       { "src": "https://www.reddit.com/$", "dst": "https://teddit.net" }
     ] }
   ]
 }
