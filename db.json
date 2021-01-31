@@ -1,6 +1,6 @@
 {
   "version": {
-    "number": "3"
+    "number": "4"
   },
   "rules": [
        { "ruleset": "Youtube-to-Invidious", "value": [      
