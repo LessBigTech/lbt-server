@@ -1,0 +1,3 @@
+# Less Big Tech
+
+A simple chrome extension that adds the ability to rewrite popular websites to mirror sites that will track you a little less...
