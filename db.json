@@ -28,8 +28,8 @@
        { "src": "https://www.google.co(.*)/search?q=(.*)$", "dst": "https://duckduckgo.com/?q=$2" },      
        { "src": "https://www.google.com(.*)/search?q=(.*)$", "dst": "https://duckduckgo.com/?q=$2" },
        { "src": "https://www.google.com/search?q=(.*)$", "dst": "https://duckduckgo.com/?q=$1" },
-       { "src": "https://www.google.co(.*)/$", "dst": "https://duckduckgo.com/" }
-       { "src": "https://www.google.co(.*)/(.*)$", "dst": "https://duckduckgo.com/" }
+       { "src": "https://www.google.co(.*)/$", "dst": "https://duckduckgo.com/" },
+       { "src": "https://www.google.co(.*)/(.*)$", "dst": "https://duckduckgo.com/" },
        { "src": "https://www.google.com.(.*)/(.*)", "dst": "https://duckduckgo.com/" },
        { "src": "https://www.google.com/$", "dst": "https://duckduckgo.com/" },
        { "src": "https://www.google.com.(.*)/$", "dst": "https://duckduckgo.com/" }
